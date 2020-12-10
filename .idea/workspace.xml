@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5652360-1166-4fc4-a8ea-da276dcd5b17" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/WiredTiger" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/WiredTiger.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/WiredTiger.turtle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/WiredTiger.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/WiredTigerHS.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/_mdb_catalog.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/collection-0--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/collection-2--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/collection-4--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/diagnostic.data/metrics.2020-12-10T02-11-42Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/diagnostic.data/metrics.interim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/index-1--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/index-3--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/index-5--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/index-6--2167655041993153466.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/journal/WiredTigerPreplog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/journal/WiredTigerPreplog.0000000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/mongod.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/sizeStorer.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/data/db/storage.bson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/.idea/express-cli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/views/error.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/views/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/express-cli/views/layout.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/project/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lRpx8pywngl8GtPRAJIqUq1ZFE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="G:\chat-project\chat\web\project\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f5652360-1166-4fc4-a8ea-da276dcd5b17" name="默认更改列表" comment="" />
+      <created>1607570001877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607570001877</updated>
+      <workItem from="1607570003431" duration="468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+  </component>
+</project>
