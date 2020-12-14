@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('express-cli:server');
 var http = require('http');
+var createWs = require('../websocket/index')
 
 /**
  * Get port from environment and store in Express.
@@ -28,6 +29,8 @@ var server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+
+createWs(server)
 
 /**
  * Normalize a port into a number, string, or false.
@@ -87,4 +90,5 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.dir(`http://localhost:${port}`)
 }
