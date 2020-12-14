@@ -60,9 +60,11 @@ export default defineComponent({
     },
     onOpen () {
       console.log(this)
-      this.ws.send('abc')
+      if (this.ws) {
+        this.ws.send('abc')
+      }
     },
-    onMessage (msg) {
+    onMessage (msg: string) {
       console.log(msg)
     },
     onClose () {

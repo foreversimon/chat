@@ -1,4 +1,4 @@
-type callback = () => void
+type callback = (...args: any) => void
 
 interface Ws {
   url: string;
