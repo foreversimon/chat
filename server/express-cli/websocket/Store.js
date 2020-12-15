@@ -7,8 +7,9 @@ function Store (prop = {}) {
 
 Store.prototype.setData = new Proxy(setData, {
     apply(target, thisArg, argArray) {
+        const oldValue = getData.apply(thisArg, argArray)
         Reflect.apply(target, thisArg, argArray)
-        thisArg._listenCache.change.forEach(item => item.call(this, ...argArray))
+        thisArg._listenCache.change.forEach(item => item.call(this, ...argArray, oldValue))
     }
 })
 
@@ -35,8 +36,9 @@ function listen (key, callback) {
 function listenRemove (key, callback) {
     if (this._listenCache[key]) {
         const findIndex = this._listenCache[key].findIndex(item => callback === item)
-        if (findIndex) {
-            this._listenCache.splice(findIndex, 1)
+        console.log(findIndex)
+        if (findIndex >= 0) {
+            this._listenCache[key].splice(findIndex, 1)
         }
     }
 }
