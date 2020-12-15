@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f5652360-1166-4fc4-a8ea-da276dcd5b17" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/project/src/api/websocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/project/src/api/websocket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/project/src/views/main/chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/project/src/views/main/chat/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/express-cli/websocket/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/express-cli/websocket/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/express-cli/websocket/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/express-cli/websocket/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="G:\chat-project\chat\web\project\src\views\main" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/web/project/package.json" />
       <command value="run" />
@@ -97,7 +97,8 @@
       <updated>1607570001877</updated>
       <workItem from="1607570003431" duration="18764000" />
       <workItem from="1607648260140" duration="28439000" />
-      <workItem from="1607907603848" duration="14326000" />
+      <workItem from="1607907603848" duration="14967000" />
+      <workItem from="1607995070329" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1607570600755</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607934486378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复ts报错">
+      <created>1607935664177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607935664177</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初次提交" />
     <MESSAGE value="基本搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本搭建" />
+    <MESSAGE value="修复ts报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复ts报错" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
