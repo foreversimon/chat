@@ -5,22 +5,34 @@ function Store (prop = {}) {
     }
 }
 
-Store.prototype.setData = function (key, value) {
-    const changeValue = valueChange(this._data, key, value)
-    this._listenCache.change.forEach(item => item.call(this, changeValue, key))
+Store.prototype.setData = new Proxy(setData, {
+    apply(target, thisArg, argArray) {
+        Reflect.apply(target, thisArg, argArray)
+        thisArg._listenCache.change.forEach(item => item.call(this, ...argArray))
+    }
+})
+
+Store.prototype.getData = getData
+
+Store.prototype.listen = listen
+
+Store.prototype.listenRemove = listenRemove
+
+function setData (key, value) {
+    valueChange(this._data, key, value)
 }
 
-Store.prototype.getData = function (key) {
+function getData (key) {
     return (key === undefined ? this._data : valueChange(this._data, key))
 }
 
-Store.prototype.listen = function (key, callback) {
+function listen (key, callback) {
     if (this._listenCache[key]) {
         this._listenCache[key].push(callback)
     }
 }
 
-Store.prototype.listenRemove = function (key, callback) {
+function listenRemove (key, callback) {
     if (this._listenCache[key]) {
         const findIndex = this._listenCache[key].findIndex(item => callback === item)
         if (findIndex) {
