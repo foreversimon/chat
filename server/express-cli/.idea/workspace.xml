@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d97d76-aa98-45cf-9424-ffcfd1d34e7b" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/Store.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/project/src/views/main/chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../web/project/src/views/main/chat/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +59,17 @@
       <updated>1607567624925</updated>
       <workItem from="1607567626121" duration="1393000" />
       <workItem from="1608195968890" duration="323000" />
-      <workItem from="1608254980404" duration="1850000" />
+      <workItem from="1608254980404" duration="2979000" />
+      <workItem from="1608276583972" duration="7906000" />
     </task>
+    <task id="LOCAL-00001" summary="修改store">
+      <created>1608257614130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608257614130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +86,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改store" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改store" />
   </component>
 </project>
