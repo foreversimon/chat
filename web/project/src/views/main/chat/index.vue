@@ -11,7 +11,7 @@
     <el-container class="chat-container">
       <el-header height="30px" class="chat-header">Header</el-header>
       <el-main class="chat-main">Main</el-main>
-      <el-footer class="chat-footer">Footer</el-footer>
+      <el-footer class="chat-footer"><el-button @click="sendMsg"></el-button></el-footer>
     </el-container>
   </el-container>
 </template>
@@ -71,6 +71,11 @@ export default defineComponent({
       console.log('close')
     },
     onError () {
+    },
+    sendMsg () {
+      if (this.ws) {
+        this.ws.send('123')
+      }
     }
   }
 })

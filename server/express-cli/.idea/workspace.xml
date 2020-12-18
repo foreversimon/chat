@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d97d76-aa98-45cf-9424-ffcfd1d34e7b" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/express-cli.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../web/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../web/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../web/.idea/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/project/src/views/main/chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../web/project/src/views/main/chat/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607567624925</updated>
       <workItem from="1607567626121" duration="1393000" />
+      <workItem from="1608195968890" duration="323000" />
+      <workItem from="1608254980404" duration="1850000" />
     </task>
     <servers />
   </component>
@@ -76,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -20,6 +20,10 @@ Store.prototype.listen = listen
 Store.prototype.listenRemove = listenRemove
 
 function setData (key, value) {
+    if (!key) {
+        this._data = value
+        return
+    }
     valueChange(this._data, key, value)
 }
 
@@ -36,7 +40,6 @@ function listen (key, callback) {
 function listenRemove (key, callback) {
     if (this._listenCache[key]) {
         const findIndex = this._listenCache[key].findIndex(item => callback === item)
-        console.log(findIndex)
         if (findIndex >= 0) {
             this._listenCache[key].splice(findIndex, 1)
         }
